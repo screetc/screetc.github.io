@@ -1,0 +1,150 @@
+.container {
+	background-color: #eee;
+	padding: 0;
+	margin: 0;
+}
+
+/*Header*/
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 1em auto 1em;
+	max-width: 95%;
+	border: none;
+}
+
+hr {
+	margin-bottom: 1.75em;
+}
+
+.logo {
+	max-width: 100%;
+	align-self: center;
+}
+
+.author-descr, .content, .languages, .text-lang {
+	text-align: center;
+}
+
+#foot {
+	text-align: center;
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 0px;
+}
+
+ h3 {
+	font-family: "Pt Serif", serif;
+	margin-top: 2px;
+}
+
+h1, h3 {
+	color: #30373f;
+}
+
+/*Content*/
+.content {
+	position: relative;
+	width: 100%;
+	font-family: "open sans", sans-serif;
+}
+
+.content-image {
+	width: 100%;
+}
+
+.description {
+	position: absolute;
+	color: #fff;
+	font-size: 3em;
+	font-weight: bolder;
+	text-transform: uppercase;
+	bottom: 20%;
+	width: 100%;
+}
+
+.row-feat {
+	margin: 1em 0 0.5em 55px;
+}
+
+.featured	{
+	font-family: "Pt Serif", serif;
+	font-size: 2.5em;
+	margin-bottom: 15px;
+}
+
+.descr-par {
+    font: 2em "Audiowide", cursive;
+    margin-top: 2px;
+    color: #30373f;
+    font-weight: bold;
+}
+
+/*flex-container*/
+.flex-container {
+	padding: 0;
+  margin: 0;
+  display: -webkit-flex;
+	display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container > .grid-item-flex {
+	width: 600px;
+	margin: 5px;
+	text-align: center;
+	flex-grow: 1;
+}
+
+
+.card-img-box-flex {
+	width: 600px;
+	border: groove;
+	border-color: #30373f;
+	-webkit-box-shadow: 46px 46px 36px -22px rgba(115,102,115,1);
+	-moz-box-shadow: 46px 46px 36px -22px rgba(115,102,115,1);
+	box-shadow: 46px 46px 36px -22px rgba(115,102,115,1);
+}
+
+/*Other info/about*/
+#top {
+	margin: 100px 0 0;
+}
+
+.languages {
+	width: 100%;
+}
+
+.languages > .aio-languages {
+	width: 50%;
+	height: auto;
+}
+
+.learn {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #f16529;
+	font-family: "Pt Serif", serif;
+	font-size: 2em;
+}
+
+
+#bottom {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Footer*/
+.mail {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font: 1.5em "Audiowide", cursive;
+	color: #30373f;
+}
+
+.mail:hover {
+	color: #f16529;
+}

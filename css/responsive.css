@@ -1,0 +1,65 @@
+@media screen and (max-width: 360px) {
+
+  .header {
+    justify-content: center;
+    width: 360px;
+    display: block;
+  }
+
+  .logo {
+margin: 0;
+text-align: center;
+      width: 200px;
+    	height: auto;
+  }
+
+  .author-descr {
+    font-size: 10px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .header {
+  	margin: 5px auto 5px;
+  }
+
+  .description {
+  	position: absolute;
+  	color: #fff;
+  	font-size: 2em;
+  	font-weight: bolder;
+  	text-transform: uppercase;
+  	bottom: 15%;
+  	width: 100%;
+  }
+
+  .row-feat {
+  	margin: 1em 0 0.5em 80px;
+  }
+
+  #top {
+  	margin: 0;
+  }
+
+  .learn {
+  	margin-top: 0;
+  	margin-bottom: 0;
+  }
+
+  .languages > .aio-languages {
+  	width: 70%;
+  	height: auto;
+  }
+
+  #bottom {
+  	margin: 0;
+  }
+
+  .mail {
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	line-height: 1.2em;
+  }
+}
