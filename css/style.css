@@ -30,7 +30,10 @@ hr {
 	display: block;
 }
 
-.author-descr, .content, .languages, .text-lang {
+.author-descr,
+.content,
+.languages,
+.text-lang {
 	text-align: center;
 }
 
