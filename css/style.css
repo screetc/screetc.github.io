@@ -46,7 +46,7 @@ h1 {
 	margin-bottom: 0;
 }
 
- h3 {
+h3 {
 	font-family: "Pt Serif", serif;
 	margin-top: 2px;
 }
@@ -93,10 +93,10 @@ h3 {
 /*flex-container*/
 .flex-container {
 	padding: 0;
-  	margin: 0;
-  	display: -webkit-flex;
+  margin: 0;
+  display: -webkit-flex;
 	display: flex;
-  	flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .flex-container > .grid-item-flex {
@@ -137,6 +137,11 @@ h3 {
 
 .languages > .image-languages {
 	width: 50%;
+	height: auto;
+}
+
+.languages > p .image-languages-tech {
+	width: 24%;
 	height: auto;
 }
 
